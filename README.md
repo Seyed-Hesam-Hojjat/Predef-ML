@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tabular ML Workbench
 
 A local-first, interactive Python app for a guided, auditable machine-learning workflow on tabular Excel/CSV data. It is intended as a starting point for a public GitHub project and for research/analytics workflows—not as a push-button substitute for domain expertise or a prespecified analysis plan.
@@ -121,3 +122,6 @@ MIT. See `LICENSE`.
 - scikit-learn, [Model evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html), for scoring and evaluation metrics.
 - scikit-learn, [Permutation feature importance](https://scikit-learn.org/stable/modules/permutation_importance.html), including its interpretation limitations.
 - Streamlit, [Session State](https://docs.streamlit.io/develop/api-reference/caching-and-state/st.session_state), for the multi-step local interface.
+=======
+# Predef-ML
+>>>>>>> 723f3b963f48856be4bf1c5749eb0380175154a1
