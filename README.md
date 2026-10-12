@@ -85,28 +85,6 @@ tests/                       # Unit/smoke tests
 sample_data/                 # Synthetic demo data only
 ```
 
-## Publish to GitHub
-
-Create an empty repository on GitHub, then from this project directory:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: guided tabular ML workbench"
-git branch -M main
-git remote add origin https://github.com/<your-user-or-org>/tabular-ml-workbench.git
-git push -u origin main
-```
-
-Replace the remote URL with your repository's actual URL. The included GitHub Actions workflow runs the tests on pushes and pull requests.
-
-## Run tests
-
-```bash
-pip install pytest
-python -m pytest -q
-```
-
 ## Contributing roadmap
 
 Potential next steps include nested CV, repeated-CV uncertainty summaries, bootstrap confidence intervals, calibration/decision curves, threshold selection on validation data, SHAP or other explainability tools, fairness checks, optional XGBoost/LightGBM/CatBoost integrations, a command-line interface, API endpoints, and a reproducibility manifest for each run.
