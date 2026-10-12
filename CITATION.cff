@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use Tabular ML Workbench in research, please cite the repository version you used and the relevant scikit-learn and Streamlit documentation."
+title: "Tabular ML Workbench"
+version: 0.1.0
+authors:
+  - name: "Tabular ML Workbench contributors"
+type: software
+license: MIT
+abstract: "A guided local-first Python workflow for tabular data auditing, feature preparation, cross-validated model comparison, and held-out evaluation."
